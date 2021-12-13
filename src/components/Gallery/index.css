@@ -1,1 +1,31 @@
 /* Write your code here. */
+.bgContainer {
+  display: flex;
+  justify-content: center;
+}
+.imgStyle {
+  border-radius: 18px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #1e293b;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #64748b;
+}
+.ulContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.galleryConatainer {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  max-width: 1140px;
+}
